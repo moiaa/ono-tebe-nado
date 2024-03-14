@@ -226,7 +226,7 @@
 }
 .about__column {
   display: grid;
-  grid-template-columns: min-content 1fr; 
+  grid-template-columns: min-content 1fr;
   gap: 71px;
 }
 .about__logo { /*Определиться с положением логотипа по центру*/
