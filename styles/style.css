@@ -19,7 +19,7 @@
   text-decoration: none;
   border-bottom: 1px solid;
 }
-.header__link_active .header__link {
+.header__link_active {
   text-decoration: none;
   border-bottom: none;
 }
@@ -68,15 +68,16 @@
 }
 .cover__title {
   font-weight: 700;
+  line-height: 100%;
   font-size: 100px;
   color: white;
   text-transform: uppercase;
-  padding: 164px 50px 119px;
+  padding: 174px 50px 134px;
   position: relative;
   z-index: 1;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 23px;
 }
 .aligned-text {
   display: block;
@@ -276,7 +277,7 @@
   font-size: 18px;
   line-height: 21px;
 }
-.footer__menu-link_active .footer__menu-link {
+.footer__menu-link_active {
   text-decoration: none;
 }
 .footer__social-list {
